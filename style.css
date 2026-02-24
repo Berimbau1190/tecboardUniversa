@@ -111,6 +111,7 @@ button {
     display: flex;
     width: 732px;
     height: 600px;
+    margin-bottom: -200px;
   }
 }
 
