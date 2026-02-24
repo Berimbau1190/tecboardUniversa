@@ -65,6 +65,20 @@ button {
   font-size: 24px;
   font-style: normal;
 }
+a {
+  width: 340px;
+  height: 66px;
+  border-radius: 36px;
+  border: none;
+  background: #9747ff;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+
+  font-family: "Poppins", Semibold;
+  font-size: 24px;
+  font-style: normal;
+}
 
 /* tela tablet  */
 @media (min-width: 768px) and (max-width: 1102px) {
