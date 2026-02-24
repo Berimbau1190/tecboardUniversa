@@ -89,7 +89,6 @@ button {
     margin: 126px 0 0 17px;
     width: 341px;
     height: 670px;
-    border: solid white;
   }
 
   h1 span {
@@ -112,39 +111,4 @@ button {
   }
 }
 
-/* 📱 tela celular
-@media (max-width: 767px) {
-  header {
-    margin: 65px 0 0 60px;
-  }
 
-  main {
-    margin: 126px 0 0 17px;
-    width: 341px;
-    height: 670px;
-    border: solid white;
-  }
-
-  h1 span {
-    font-size: 40px;
-  }
-
-  h1 {
-    font-size: 40px;
-  }
-
-  p {
-    font-size: 20px;
-  }
-
-  button {
-    width: 251px;
-    height: 66px;
-    font-size: 20px;
-  }
-
-  main img {
-    width: 332px;
-    height: 200px;
-  }
-} */
