@@ -66,18 +66,17 @@ button {
   font-style: normal;
 }
 a {
-  width: 340px;
-  height: 66px;
+width: 100px;
+height: 1px;
   border-radius: 36px;
   border: none;
-  background: #9747ff;
   font-size: 24px;
   color: white;
   cursor: pointer;
-
   font-family: "Poppins", Semibold;
   font-size: 24px;
   font-style: normal;
+  text-decoration: none;
 }
 
 /* tela tablet  */
@@ -91,6 +90,19 @@ a {
     width: 648px;
     height: 882px;
   }
+  a {
+width: 100px;
+height: 1px;
+  border-radius: 36px;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", Semibold;
+  font-size: 24px;
+  font-style: normal;
+  text-decoration: none;
+}
 }
 
 
@@ -127,6 +139,19 @@ a {
     height: 600px;
     margin-bottom: -200px;
   }
+  a {
+width: 100px;
+height: 1px;
+  border-radius: 36px;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  font-family: "Poppins", Semibold;
+  font-size: 24px;
+  font-style: normal;
+  text-decoration: none;
+}
 }
 
 
