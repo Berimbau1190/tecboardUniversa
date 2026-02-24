@@ -86,7 +86,8 @@ button {
     margin: 65px 0 0 60px;
   }
   main {
-    margin: 250px 0 0 17px;
+    margin-top:17px;
+    margin-left: 300px;
     width: 341px;
     height: 670px;
   }
