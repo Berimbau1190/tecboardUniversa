@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Unbounded:wght@200..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: black;
+}
+
+header {
+  margin: 75px 0 0 360px;
+  width: 209px;
+  height: 34px;
+}
+
+main {
+  display: flex;
+  margin: 50px 0 0 564px;
+  flex-direction: column;
+  width: 792px;
+  height: 846px;
+  align-items: center;
+  gap: 30px;
+
+  text-align: center;
+}
+
+h1 span {
+  color: #9747ff;
+
+  font-family: "Unbounded", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+}
+h1 {
+  font-family: "Unbounded", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  color: white;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  color: white;
+}
+
+button {
+  width: 340px;
+  height: 66px;
+  border-radius: 36px;
+  border: none;
+  background: #9747ff;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+
+  font-family: "Poppins", Semibold;
+  font-size: 24px;
+  font-style: normal;
+}
+
+/* tela tablet  */
+@media (min-width: 768px) and (max-width: 1102px) {
+  header {
+    margin: 65px 0 0 60px;
+  }
+  main {
+    margin-top: 171px;
+    margin-left: 60px;
+    width: 648px;
+    height: 882px;
+  }
+}
+
+
+/* tela celular  */
+@media (max-width: 767px) {
+  header {
+    margin: 65px 0 0 60px;
+  }
+  main {
+    margin: 126px 0 0 17px;
+    width: 341px;
+    height: 670px;
+    border: solid white;
+  }
+
+  h1 span {
+    font-size: 40px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  p {
+    font-size: 20px;
+  }
+  button {
+    width: 251px;
+    height: 66px;
+    font-size: 20px;
+  }
+  main img {
+    width: 332px;
+    height: 200px;
+  }
+}
+
+/* 📱 tela celular
+@media (max-width: 767px) {
+  header {
+    margin: 65px 0 0 60px;
+  }
+
+  main {
+    margin: 126px 0 0 17px;
+    width: 341px;
+    height: 670px;
+    border: solid white;
+  }
+
+  h1 span {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  button {
+    width: 251px;
+    height: 66px;
+    font-size: 20px;
+  }
+
+  main img {
+    width: 332px;
+    height: 200px;
+  }
+} */
